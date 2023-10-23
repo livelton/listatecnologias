@@ -1,0 +1,68 @@
+# Dependências do Node.js
+/node_modules
+
+# Arquivos de build
+android/app/build
+ios/build
+ios/Pods
+
+# Arquivos temporários
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.DS_Store
+
+# Arquivos locais de configuração
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Arquivos de log
+logs/
+*.log
+
+# Dependências locais da CLI do React Native
+node_modules/.bin/
+
+# Dependências de build específicas do Android
+android/app/build/
+android/app/build/generated/
+android/app/build/generated/assets/
+android/app/build/generated/source/
+android/app/build/generated/res/
+
+# Dependências de build específicas do iOS
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/Podfile.backup
+ios/Pods/
+
+# Simulador do iOS
+ios/*.sim
+ios/*.simstate
+
+# Dependências específicas do Windows
+windows/VideoApp.sln
+windows/VideoApp/VideoApp.suo
+windows/VideoApp/VideoApp.v12.suo
+windows/VideoApp/VideoApp.v16.suo
+windows/VideoApp/VideoApp/VideoApp.uwp.suo
+
+# Dependências do Visual Studio Code
+.vscode/
+
+# Dependências do Android Studio
+.idea/
+*.iml
+
+# Arquivos de configuração global do Yarn
+.yarnrc
+yarn-error.log
+
+# Dependências do Cocoapods (iOS)
+Pods/
+Podfile.lock
