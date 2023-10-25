@@ -105,8 +105,12 @@ export const styles = StyleSheet.create({
     borderTopColor: "#333333"
    },
 
+   scorollList :{
+    height: 450
+   },
+
    containerListTechnologies:{
-    alignItems: "center"
+    alignItems: "center",
    }
 
    
