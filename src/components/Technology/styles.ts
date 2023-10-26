@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
         backgroundColor: '#262626',
         padding: 12,
         width: 327,
-        height: 64,
+        minHeight: 64,
         borderRadius: 8,
         display: "flex",
         flexDirection: "row",
@@ -13,14 +13,14 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         marginTop: 8,
         borderWidth: 1,
-        borderColor: '#333333'
+        borderColor: '#333333',
     },
 
     technology:{
         fontFamily: 'inter',
         color: '#fff',
         fontSize: 14,
-        width: "80%"
+        width: "80%",
     },
 
     technologyChecked:{
