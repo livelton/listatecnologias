@@ -19,10 +19,12 @@ export const styles = StyleSheet.create({
     technology:{
         fontFamily: 'inter',
         color: '#fff',
-        fontSize: 14
+        fontSize: 14,
+        width: "80%"
     },
 
     technologyChecked:{
+        width: "80%",
         fontFamily: 'inter',
         color: '#808080',
         fontSize: 14,
